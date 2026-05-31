@@ -1,0 +1,9 @@
+name: flo-cache-bench
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pyyaml          # spec file parsing
+  - boto3           # S3 client
+  - pelicanfs       # Pelican/OSDF client
+

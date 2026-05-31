@@ -1,0 +1,36 @@
+{
+  "spec": "synthetic-bench-data.yml",
+  "profile": "dir_100_mixed",
+  "cache_dir": "floability-data-cache",
+  "items": [
+    {
+      "name": "dir_100_mixed",
+      "source_type": "s3",
+      "source": "s3://floability/floability-cache-bench/dirs/dir_100_mixed/",
+      "fingerprint": "24f6b53e1ffd647d1331143135e6c261cb339c4234ffa1c8414221d5a74427ee",
+      "cache_hit": false,
+      "timings": {
+        "metadata_fetch_ms": 1880.07,
+        "fingerprint_compute_ms": 0.54,
+        "total_lookup_ms": 1880.61,
+        "download_ms": 198186.34
+      },
+      "source_meta_summary": {
+        "object_type": "directory",
+        "file_count": 100,
+        "total_size": 2334316610
+      },
+      "error": null
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "skipped_or_errored": 0,
+    "cache_hits": 0,
+    "cache_misses": 1,
+    "downloaded": 1,
+    "total_metadata_fetch_ms": 1880.07,
+    "total_fingerprint_ms": 0.54,
+    "total_download_ms": 198186.34
+  }
+}

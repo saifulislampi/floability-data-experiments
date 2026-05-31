@@ -1,0 +1,13 @@
+name: basic_np_env
+channels:
+- conda-forge
+dependencies:
+- python=3.14.4
+- ndcctools=7.16.5
+- xarray=2026.2.0
+- netcdf4=1.7.4
+- numpy=2.4.3
+- tqdm=4.67.3
+- pillow=12.2.0
+- matplotlib=3.10.8
+- tqdm=4.67.3

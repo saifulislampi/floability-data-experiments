@@ -1,0 +1,89 @@
+{
+  "spec": "synthetic-bench-data.yml",
+  "profile": "synthetic_single",
+  "cache_dir": "floability-data-cache",
+  "items": [
+    {
+      "name": "single_1mb",
+      "source_type": "s3",
+      "source": "s3://floability/floability-cache-bench/single/file_1mb.bin",
+      "fingerprint": "c15dde9983226c6c829e55f1e74e0685d3c88a81bf581deffc386677f5dbdac7",
+      "cache_hit": false,
+      "timings": {
+        "metadata_fetch_ms": 112.9,
+        "fingerprint_compute_ms": 0.08,
+        "total_lookup_ms": 112.98,
+        "download_ms": 406.4
+      },
+      "source_meta_summary": {
+        "object_type": "file",
+        "size": 1048576
+      },
+      "error": null
+    },
+    {
+      "name": "single_10mb",
+      "source_type": "s3",
+      "source": "s3://floability/floability-cache-bench/single/file_10mb.bin",
+      "fingerprint": "e1bfce7e92d45ad44ffe9d3b4519afd0dbcdb8a7db5bfb44bd723e5c4b71fd5b",
+      "cache_hit": false,
+      "timings": {
+        "metadata_fetch_ms": 113.27,
+        "fingerprint_compute_ms": 0.07,
+        "total_lookup_ms": 113.34,
+        "download_ms": 639.65
+      },
+      "source_meta_summary": {
+        "object_type": "file",
+        "size": 10485760
+      },
+      "error": null
+    },
+    {
+      "name": "single_100mb",
+      "source_type": "s3",
+      "source": "s3://floability/floability-cache-bench/single/file_100mb.bin",
+      "fingerprint": "8cfc96446bd9ec12ff5c36f0b39b3c89e4c09b056a0855bccfd1d759e4cda37f",
+      "cache_hit": false,
+      "timings": {
+        "metadata_fetch_ms": 109.58,
+        "fingerprint_compute_ms": 0.06,
+        "total_lookup_ms": 109.64,
+        "download_ms": 2302.44
+      },
+      "source_meta_summary": {
+        "object_type": "file",
+        "size": 104857600
+      },
+      "error": null
+    },
+    {
+      "name": "single_1gb",
+      "source_type": "s3",
+      "source": "s3://floability/floability-cache-bench/single/file_1gb.bin",
+      "fingerprint": "f4edf492490d2ee4c922c9ba10b65a496c81f886f7c8e3bafc1d8caebcfa5ddb",
+      "cache_hit": false,
+      "timings": {
+        "metadata_fetch_ms": 132.65,
+        "fingerprint_compute_ms": 0.05,
+        "total_lookup_ms": 132.7,
+        "download_ms": 115447.81
+      },
+      "source_meta_summary": {
+        "object_type": "file",
+        "size": 1073741824
+      },
+      "error": null
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "skipped_or_errored": 0,
+    "cache_hits": 0,
+    "cache_misses": 4,
+    "downloaded": 4,
+    "total_metadata_fetch_ms": 468.4,
+    "total_fingerprint_ms": 0.26,
+    "total_download_ms": 118796.3
+  }
+}

@@ -1,0 +1,78 @@
+schema_version: 1.0
+default_profile: synthetic_single
+
+profiles:
+  synthetic_single:
+    policy:
+      retry_attempts: 0
+      timeout: 60
+    data:
+      - name: single_1mb
+        source_type: s3
+        source: s3://floability/floability-cache-bench/single/file_1mb.bin
+        target_path: data/single/file_1mb.bin
+
+      - name: single_10mb
+        source_type: s3
+        source: s3://floability/floability-cache-bench/single/file_10mb.bin
+        target_path: data/single/file_10mb.bin
+
+      - name: single_100mb
+        source_type: s3
+        source: s3://floability/floability-cache-bench/single/file_100mb.bin
+        target_path: data/single/file_100mb.bin
+
+      - name: single_1gb
+        source_type: s3
+        source: s3://floability/floability-cache-bench/single/file_1gb.bin
+        target_path: data/single/file_1gb.bin
+
+  dir_10_mixed:
+    policy:
+      retry_attempts: 0
+      timeout: 300
+    data:
+      - name: dir_10_mixed
+        source_type: s3
+        source: s3://floability/floability-cache-bench/dirs/dir_10_mixed/
+        target_path: data/dirs/dir_10_mixed
+
+  dir_100_mixed:
+    policy:
+      retry_attempts: 0
+      timeout: 300
+    data:
+      - name: dir_100_mixed
+        source_type: s3
+        source: s3://floability/floability-cache-bench/dirs/dir_100_mixed/
+        target_path: data/dirs/dir_100_mixed
+
+  dir_1000_mixed:
+    policy:
+      retry_attempts: 0
+      timeout: 300
+    data:
+      - name: dir_1000_mixed
+        source_type: s3
+        source: s3://floability/floability-cache-bench/dirs/dir_1000_mixed/
+        target_path: data/dirs/dir_1000_mixed
+
+  dir_5000_mixed:
+    policy:
+      retry_attempts: 0
+      timeout: 600
+    data:
+      - name: dir_5000_mixed
+        source_type: s3
+        source: s3://floability/floability-cache-bench/dirs/dir_5000_mixed/
+        target_path: data/dirs/dir_5000_mixed
+
+  dir_10000_mixed:
+    policy:
+      retry_attempts: 0
+      timeout: 900
+    data:
+      - name: dir_10000_mixed
+        source_type: s3
+        source: s3://floability/floability-cache-bench/dirs/dir_10000_mixed/
+        target_path: data/dirs/dir_10000_mixed

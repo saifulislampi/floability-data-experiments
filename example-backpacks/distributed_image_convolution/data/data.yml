@@ -1,0 +1,16 @@
+schema_version: 1.0
+default_profile: goes_full_data
+profiles:
+  goes16_test_data:
+    data:
+      - name: test_data
+        source_type: s3
+        source: s3://noaa-goes16/ABI-L1b-RadF/2024/200/23/
+        target_location: goes16
+
+  goes_full_data:
+    data:
+      - name: full_data
+        source_type: s3
+        source: s3://noaa-goes16/ABI-L1b-RadF/2024/200/
+        target_location: goes16
