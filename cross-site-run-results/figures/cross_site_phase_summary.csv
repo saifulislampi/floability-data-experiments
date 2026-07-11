@@ -1,0 +1,73 @@
+workflow,workflow_name,site,scheduler,run_type,phase,mean_seconds,sd_seconds,median_seconds,min_seconds,max_seconds,n_runs
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Cold,Cache Lookup,3.433333,0.067114,3.410000,3.381000,3.509000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Cold,Data Materialization,5909.902333,362.306661,5841.695000,5586.547000,6301.465000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Cold,Environment Setup,840.983667,303.986856,703.620000,629.922000,1189.409000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Cold,Notebook Execution,2113.434333,298.993021,2222.230000,1775.277000,2342.796000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Repeat,Cache Lookup,2.685000,0.490230,2.545000,2.280000,3.230000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Repeat,Data Materialization,2.705933,0.504440,2.558000,2.292000,3.267800,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DV5,Distributed HEP Analysis,ND CRC,HTCondor,Repeat,Notebook Execution,2630.067667,441.141075,2682.482000,2165.061000,3042.660000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Cold,Cache Lookup,1.317333,0.132855,1.267000,1.217000,1.468000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Cold,Data Materialization,4694.632000,1077.118561,4326.476000,3849.861000,5907.559000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Cold,Environment Setup,199.756000,41.540158,189.356000,164.404000,245.508000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Cold,Notebook Execution,1646.211000,366.010992,1762.011000,1236.307000,1940.315000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Repeat,Cache Lookup,1.442667,0.339562,1.331000,1.173000,1.824000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Repeat,Data Materialization,1.451667,0.337645,1.340000,1.184000,1.831000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DV5,Distributed HEP Analysis,Anvil,Slurm,Repeat,Notebook Execution,1464.784667,790.595540,1079.110000,941.045000,2374.199000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Cold,Cache Lookup,2.660000,0.467507,2.594000,2.229000,3.157000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Cold,Data Materialization,5992.662333,895.575340,5823.546000,5193.702000,6960.739000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Cold,Environment Setup,887.205667,180.125919,831.569000,741.462000,1088.586000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Cold,Notebook Execution,1411.379667,65.938313,1437.315000,1336.417000,1460.407000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Repeat,Cache Lookup,9.389667,11.358167,3.256000,2.417000,22.496000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Repeat,Data Materialization,9.614667,11.186287,3.693000,2.634000,22.517000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DV5,Distributed HEP Analysis,Stampede3,Slurm,Repeat,Notebook Execution,1744.686667,290.068984,1724.363000,1465.314000,2044.383000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Cold,Cache Lookup,1.460300,0.134309,1.533300,1.305300,1.542300,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Cold,Data Materialization,285.912667,27.063948,287.142000,258.255000,312.341000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Cold,Environment Setup,578.434667,16.613973,580.445000,560.907000,593.952000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Cold,Notebook Execution,243.861667,7.938628,244.313000,235.707000,251.565000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Repeat,Cache Lookup,1.343000,0.201517,1.291400,1.172300,1.565300,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Repeat,Data Materialization,1.360000,0.196092,1.304000,1.198000,1.578000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+LFV,Lepton Flavor Violation Analysis,ND CRC,HTCondor,Repeat,Notebook Execution,247.359000,38.472897,262.549000,203.610000,275.918000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Cold,Cache Lookup,0.672867,0.195858,0.659200,0.484200,0.875200,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Cold,Data Materialization,283.872000,15.103496,290.612000,266.572000,294.432000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Cold,Environment Setup,183.578667,11.930541,181.002000,173.147000,196.587000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Cold,Notebook Execution,364.685000,2.292590,364.331000,362.590000,367.134000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Repeat,Cache Lookup,0.591867,0.161113,0.537200,0.465200,0.773200,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Repeat,Data Materialization,0.603000,0.169921,0.542000,0.472000,0.795000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+LFV,Lepton Flavor Violation Analysis,Anvil,Slurm,Repeat,Notebook Execution,359.136333,16.440841,364.140000,340.775000,372.494000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Cold,Cache Lookup,2.462867,0.536966,2.754200,1.843200,2.791200,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Cold,Data Materialization,248.725667,7.118672,245.582000,243.720000,256.875000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Cold,Environment Setup,709.822333,116.205040,669.957000,618.797000,840.713000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Cold,Notebook Execution,402.695000,18.905228,401.819000,384.243000,422.023000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Repeat,Cache Lookup,2.843533,1.906746,1.802200,1.684200,5.044200,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Repeat,Data Materialization,2.894333,1.889033,1.914000,1.697000,5.072000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+LFV,Lepton Flavor Violation Analysis,Stampede3,Slurm,Repeat,Notebook Execution,649.371667,383.226013,443.123000,413.441000,1091.551000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Cold,Cache Lookup,2.661000,0.823555,2.455000,1.960000,3.568000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Cold,Data Materialization,8393.851333,1052.329920,8193.945000,7455.813000,9531.796000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Cold,Environment Setup,419.926333,41.236920,418.128000,379.618000,462.033000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Cold,Notebook Execution,21967.016000,563.247200,21774.936000,21524.933000,22601.179000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Repeat,Cache Lookup,3.102000,0.367637,3.003000,2.794000,3.509000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Repeat,Data Materialization,3.122000,0.358660,3.029000,2.819000,3.518000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DConv,Distributed Image Convolution,ND CRC,HTCondor,Repeat,Notebook Execution,22683.705000,592.219391,22481.171000,22219.323000,23350.621000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Cold,Cache Lookup,1.350000,0.272776,1.427000,1.047000,1.576000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Cold,Data Materialization,5866.980667,790.003625,5514.574000,5314.512000,6771.856000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Cold,Environment Setup,159.827000,9.592928,157.857000,151.372000,170.252000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Cold,Notebook Execution,22228.228333,526.047862,22351.872000,21651.372000,22681.441000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Repeat,Cache Lookup,1.552667,0.191087,1.546000,1.365000,1.747000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Repeat,Data Materialization,1.581333,0.175825,1.569000,1.412000,1.763000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DConv,Distributed Image Convolution,Anvil,Slurm,Repeat,Notebook Execution,22819.621333,396.515082,22950.454000,22374.223000,23134.187000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Cold,Cache Lookup,3.200333,0.319438,3.066000,2.970000,3.565000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Cold,Data Materialization,6100.555333,136.929745,6138.794000,5948.571000,6214.301000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Cold,Environment Setup,844.439667,56.197675,832.039000,795.478000,905.802000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Cold,Notebook Execution,22050.064667,197.013718,21977.477000,21899.643000,22273.074000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Repeat,Cache Lookup,3.416667,0.370217,3.556000,2.997000,3.697000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Repeat,Data Materialization,3.490000,0.336537,3.653000,3.103000,3.714000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Repeat,Environment Setup,0.000000,0.000000,0.000000,0.000000,0.000000,3
+DConv,Distributed Image Convolution,Stampede3,Slurm,Repeat,Notebook Execution,21735.206333,661.043677,21777.253000,21054.143000,22374.223000,3

@@ -1,0 +1,55 @@
+run_id,original_run_id,workflow,workflow_name,site_code,site,site_full_name,scheduler,run_type,run_number,source_key_compute_seconds,metadata_fetch_seconds,data_fetch_seconds,environment_creation_seconds,environment_pack_seconds,notebook_execution_seconds,total_runtime_seconds
+dv5-cold-nd-1,dv5-cold-nd-1,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,1,0.008000,3.373000,5841.695000,947.256000,242.153000,2342.796000,9377.281000
+dv5-cold-nd-2,dv5-cold-nd-2,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,2,0.008000,3.501000,6301.465000,538.001000,165.619000,2222.230000,9230.824000
+dv5-cold-nd-3,dv5-cold-nd-3,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,3,0.008000,3.402000,5586.547000,472.725000,157.197000,1775.277000,7995.156000
+dv5-repeat-nd-1,dv5-repeat-nd-1,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,1,0.008000,3.222000,3.267800,0.000000,0.000000,3042.660000,3049.157800
+dv5-repeat-nd-2,dv5-repeat-nd-2,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,2,0.008000,2.537000,2.558000,0.000000,0.000000,2165.061000,2170.164000
+dv5-repeat-nd-3,dv5-repeat-nd-3,DV5,Distributed HEP Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,3,0.008000,2.272000,2.292000,0.000000,0.000000,2682.482000,2687.054000
+dv5-cold-anvil-1,dv5-cold-anvil-1,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,1,0.005000,1.212000,3849.861000,77.446000,86.958000,1762.011000,5777.493000
+dv5-cold-anvil-2,dv5-cold-anvil-2,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,2,0.005000,1.463000,4326.476000,114.635000,74.721000,1940.315000,6457.615000
+dv5-cold-anvil-3,dv5-cold-anvil-3,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,3,0.005000,1.262000,5907.559000,125.728000,119.780000,1236.307000,7390.641000
+dv5-repeat-anvil-1,dv5-repeat-anvil-1,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,1,0.005000,1.326000,1.340000,0.000000,0.000000,2374.199000,2376.870000
+dv5-repeat-anvil-2,dv5-repeat-anvil-2,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,2,0.005000,1.168000,1.184000,0.000000,0.000000,1079.110000,1081.467000
+dv5-repeat-anvil-3,dv5-repeat-anvil-3,DV5,Distributed HEP Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,3,0.005000,1.819000,1.831000,0.000000,0.000000,941.045000,944.700000
+dv5-cold-st3-1,dv5-cold-st3-1,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,1,0.005000,2.589000,5193.702000,471.996000,359.573000,1437.315000,7465.180000
+dv5-cold-st3-2,dv5-cold-st3-2,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,2,0.005000,3.152000,6960.739000,704.378000,384.208000,1460.407000,9512.889000
+dv5-cold-st3-3,dv5-cold-st3-3,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,3,0.005000,2.224000,5823.546000,463.319000,278.143000,1336.417000,7903.654000
+dv5-repeat-st3-1,dv5-repeat-st3-1,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,1,0.005000,22.491000,22.517000,0.000000,0.000000,2044.383000,2089.396000
+dv5-repeat-st3-2,dv5-repeat-st3-2,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,2,0.005000,3.251000,3.693000,0.000000,0.000000,1724.363000,1731.312000
+dv5-repeat-st3-3,dv5-repeat-st3-3,DV5,Distributed HEP Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,3,0.005000,2.412000,2.634000,0.000000,0.000000,1465.314000,1470.365000
+lfv-cold-nd-1,lfv-cold-nd-1,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,1,0.000300,1.305000,258.255000,490.980000,102.972000,235.707000,1089.219300
+lfv-cold-nd-2,lfv-cold-nd-2,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,2,0.000300,1.533000,312.341000,488.131000,92.314000,251.565000,1145.884300
+lfv-cold-nd-3,lfv-cold-nd-3,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,3,0.000300,1.542000,287.142000,472.343000,88.564000,244.313000,1093.904300
+lfv-repeat-nd-1,lfv-repeat-nd-1,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,1,0.000300,1.565000,1.578000,0.000000,0.000000,275.918000,279.061300
+lfv-repeat-nd-2,lfv-repeat-nd-2,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,2,0.000400,1.291000,1.304000,0.000000,0.000000,262.549000,265.144400
+lfv-repeat-nd-3,lfv-repeat-nd-3,LFV,Lepton Flavor Violation Analysis,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,3,0.000300,1.172000,1.198000,0.000000,0.000000,203.610000,205.980300
+lfv-cold-anvil-1,lfv-cold-anvil-1,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,1,0.000200,0.484000,290.612000,107.315000,65.832000,362.590000,826.833200
+lfv-cold-anvil-2,lfv-cold-anvil-2,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,2,0.000200,0.659000,266.572000,120.617000,75.970000,364.331000,828.149200
+lfv-cold-anvil-3,lfv-cold-anvil-3,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Cold,3,0.000200,0.875000,294.432000,110.862000,70.140000,367.134000,843.443200
+lfv-repeat-anvil-1,lfv-repeat-anvil-1,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,1,0.000200,0.465000,0.472000,0.000000,0.000000,364.140000,365.077200
+lfv-repeat-anvil-2,lfv-repeat-anvil-2,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,2,0.000200,0.537000,0.542000,0.000000,0.000000,340.775000,341.854200
+lfv-repeat-anvil-3,lfv-repeat-anvil-3,LFV,Lepton Flavor Violation Analysis,anvil,Anvil,Purdue Anvil,Slurm,Repeat,3,0.000200,0.773000,0.795000,0.000000,0.000000,372.494000,374.062200
+lfv-cold-st3-1,lfv-cold-st3-1,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,1,0.000200,2.791000,243.720000,477.445000,363.268000,401.819000,1489.043200
+lfv-cold-st3-2,lfv-cold-st3-2,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,2,0.000200,2.754000,256.875000,465.534000,204.423000,422.023000,1351.609200
+lfv-cold-st3-3,lfv-cold-st3-3,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Cold,3,0.000200,1.843000,245.582000,397.403000,221.394000,384.243000,1250.465200
+lfv-repeat-st3-1,lfv-repeat-st3-1,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,1,0.000200,5.044000,5.072000,0.000000,0.000000,443.123000,453.239200
+lfv-repeat-st3-2,lfv-repeat-nd-2,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,2,0.000200,1.684000,1.697000,0.000000,0.000000,1091.551000,1094.932200
+lfv-repeat-st3-3,lfv-repeat-st3-3,LFV,Lepton Flavor Violation Analysis,st3,Stampede3,TACC Stampede3,Slurm,Repeat,3,0.000200,1.802000,1.914000,0.000000,0.000000,413.441000,417.157200
+dconv-cold-nd-1,dconv-cold-nd-1,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,1,0.005000,1.955000,9531.796000,362.106000,99.927000,21524.933000,31520.722000
+dconv-cold-nd-2,dconv-cold-nd-2,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,2,0.003000,2.452000,7455.813000,289.684000,89.934000,22601.179000,30439.065000
+dconv-cold-nd-3,dconv-cold-nd-3,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Cold,3,0.003000,3.565000,8193.945000,325.894000,92.234000,21774.936000,30390.577000
+dconv-repeat-nd-1,dconv-repeat-nd-1,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,1,0.004000,2.999000,3.029000,0.000000,0.000000,22219.323000,22225.355000
+dconv-repeat-nd-2,dconv-repeat-nd-2,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,2,0.005000,3.504000,3.518000,0.000000,0.000000,22481.171000,22488.198000
+dconv-repeat-nd-3,dconv-repeat-nd-3,DConv,Distributed Image Convolution,nd,ND CRC,Notre Dame CRC,HTCondor,Repeat,3,0.004000,2.790000,2.819000,0.000000,0.000000,23350.621000,23356.234000
+dconv-cold-anvil-1,dconv-cold-anvil-1,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Cold,1,0.003000,1.044000,5314.512000,85.104000,66.268000,22681.441000,28148.372000
+dconv-cold-anvil-2,dconv-cold-anvil-2,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Cold,2,0.004000,1.572000,6771.856000,102.203000,68.049000,21651.372000,28595.056000
+dconv-cold-anvil-3,dconv-cold-anvil-3,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Cold,3,0.004000,1.423000,5514.574000,88.405000,69.452000,22351.872000,28025.730000
+dconv-repeat-anvil-1,dconv-repeat-anvil-1,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Repeat,1,0.004000,1.542000,1.569000,0.000000,0.000000,22374.223000,22377.338000
+dconv-repeat-anvil-2,dconv-repeat-anvil-2,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Repeat,2,0.004000,1.361000,1.412000,0.000000,0.000000,22950.454000,22953.231000
+dconv-repeat-anvil-3,dconv-repeat-anvil-3,DConv,Distributed Image Convolution,anvil,Anvil,Purdue Anvil,Slurm,Repeat,3,0.004000,1.743000,1.763000,0.000000,0.000000,23134.187000,23137.697000
+dconv-cold-st3-1,dconv-cold-st3-1,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Cold,1,0.003000,3.063000,5948.571000,466.515000,365.524000,21977.477000,28761.153000
+dconv-cold-st3-2,dconv-cold-st3-2,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Cold,2,0.003000,3.562000,6138.794000,543.574000,362.228000,22273.074000,29321.235000
+dconv-cold-st3-3,dconv-cold-st3-3,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Cold,3,0.003000,2.967000,6214.301000,463.345000,332.133000,21899.643000,28912.392000
+dconv-repeat-st3-1,dconv-repeat-st3-1,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Repeat,1,0.003000,3.694000,3.714000,0.000000,0.000000,22374.223000,22381.634000
+dconv-repeat-st3-2,dconv-repeat-st3-2,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Repeat,2,0.003000,3.553000,3.653000,0.000000,0.000000,21054.143000,21061.352000
+dconv-repeat-st3-3,dconv-repeat-st3-3,DConv,Distributed Image Convolution,st3,Stampede3,TACC Stampede3,Slurm,Repeat,3,0.003000,2.994000,3.103000,0.000000,0.000000,21777.253000,21783.353000
